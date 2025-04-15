@@ -1,33 +1,30 @@
-<!doctype html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>新網頁1</title>
-link rel="stylesheet" herf="body.css" type="text/css">
-  <style type="text/css">
-  </style>
-<h2>歡迎來到口腔衛生健康網</h2>
-h2 {font-weight:bold}
-p {text-indent:20px}
-p {letter-spacing:3px}
-p {word-spacing:3px}
-h2 {text-align:center;}
-h2 {text-shadow:12px 8px 5px orange}
-h2{color:black；font-family:標楷體；font-size:20px；color:gray}
-{color:gray；background:silver}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>文字陰影效果</title>
+  <style>
+    .shadow-orange {
+      text-shadow: 
+        2px 2px 12px orange, 
+        4px 4px 8px gray, 
+        6px 6px 5px silver;
+      font-size: 24px;
+      font-weight: bold;
+    }
 
-<!doctype html>
-<html>
- </head>
- <body>
-  <h1>歡迎來到口腔衛生健康網</h1>
-h1 {font-weight:bold}
-p {text-indent:20px}
-p {letter-spacing:3px}
-p {word-spacing:3px}
-h1 {text-align:center;}
-h1 {text-shadow:12px 8px 5px orange}
-h1{color:black；font-family:標楷體；font-size:20px；color:orange}
-{color:black；background:orange}
- </body>
+    .shadow-black {
+      text-shadow: 
+        2px 2px 12px black, 
+        4px 4px 8px gray, 
+        6px 6px 5px silver;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p class="shadow-orange">歡迎來到口腔衛生健康網</p>
+  <p class="shadow-black">歡迎來到口腔衛生健康網</p>
+</body>
 </html>
