@@ -3,7 +3,7 @@ from django.http import HttpResponse
 def home(request):
     if 'user' not in request.COOKIES:
         response = HttpResponse("這裡是溫馨提醒")
-        response.set_cookie("這裡是溫馨提醒")
+        response.set_cookie("這裡是溫馨提醒"，"少抽點菸，家庭更圓滿")
         return response
     else:
         return HttpResponse("少抽點菸，家庭更圓滿")
